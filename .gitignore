@@ -1,0 +1,60 @@
+HELP.md
+target/
+/*/target
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.flattened-pom.xml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Eclipse-related files and directories:
+/.classpath
+/.factorypath
+/.project
+/.settings
+/*/.classpath
+/*/.factorypath
+/*/.project
+/*/.settings
+
+# IDEA-related files and directories:
+/.idea
+/*.iml
+/*/.idea
+/*/*.iml
+
+# JRebel settings:
+/src/main/java/rebel.xml
+/src/main/resources/rebel.xml
+/*/src/main/java/rebel.xml
+/*/src/main/resources/rebel.xml
+
+pom.xml.versionsBackup
+/data/*

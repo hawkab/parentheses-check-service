@@ -1,0 +1,16 @@
+syntax = "proto3";
+package api;
+
+import "google/protobuf/struct.proto";
+
+service API {
+  rpc CheckBrackets(ParenthesesCheckRequestDTO) returns (ParenthesesCheckResponseDTO);
+
+}
+message ParenthesesCheckRequestDTO {
+  string text = 1;
+}
+
+message ParenthesesCheckResponseDTO {
+  bool isCorrect = 1;
+}
